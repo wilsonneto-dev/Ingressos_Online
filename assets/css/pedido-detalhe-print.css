@@ -1,0 +1,58 @@
+body{
+	border-top: none; 
+	padding: 0;
+	margin: 0;
+} 
+
+body > header,
+body > footer,
+.newsletter-form,
+.pre_footer,
+.fw,
+.default_page > header,
+.no-print
+{
+	display: none !important; 
+}
+
+.pedido_wrapper, .fw {
+	display: block !important;
+}
+.fw a { color: #555555 !important; }
+.a_right {
+    display: block;
+    float: none;
+}
+/*
+.btn_voltar{ display: none; }
+.pedido_wrapper{
+	text-align: left;
+	width: 760px;
+	border: 1px dotted gray;
+	margin: 20px auto;
+	font-size: 14px;
+	padding: 30px;
+}
+
+.a_right{
+	display: inline-block;
+	float: right;
+}
+
+.status_0, .status_1, .status_2, .status_5, .status_6 {
+	font-weight: bold;
+	color: #fc3c5c;
+}
+.status_3, .status_4 {
+	font-weight: bold;
+	color: #3cfc5c;
+} 
+
+.h{ display: none !important; }
+
+*/
+
+
+.default_page_content.ads{
+	display: block;
+}

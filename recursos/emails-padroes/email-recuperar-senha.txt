@@ -1,0 +1,12 @@
+<center>
+	<img src="http://www.zedoingresso.com.br/imgs/mail-logo.png" />
+</center>
+Olá $[NOME]! 
+Foi solicitado recuperar a senha em nosso site, caso não tenha sido você quem solicitou por favor ignore esta mensagem.
+
+Para prosseguir com a recuperação da senha, siga o link:
+<a href="http://www.zedoingresso.com.br/recuperar-senha-confirm?email=$[EMAIL]&codigo=$[HASH]">zedoingresso.com.br/recuperar-senha</a>.
+
+Atenciosamente,
+Equipe Zé do Ingresso. :)
+

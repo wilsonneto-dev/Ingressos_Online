@@ -1,0 +1,142 @@
+
+p.default{ padding: 0 10px; margin: 0; margin-top: 10px; }
+
+.big-buttons-group {
+	text-align: center;
+	margin: 10px 0;
+}
+.big-buttons-group * {
+	vertical-align: middle;
+}
+
+.big-buttons-group > a {
+	display: inline-block;
+	border: 1px solid #dfdfdf;
+	width: 30%;
+	min-width: 300px;
+	margin: 5px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	padding: 15px 0;
+}
+.big-buttons-group > a:hover {
+	background-color: #fafafa;	
+}
+.big-buttons-group > a > img {
+	height: 50px;
+	margin: 5px;
+}
+input[disabled],
+select[disabled]{
+	border: none !important;
+	background-color: #f5f5f5 !important;
+}
+.center{ text-align: center; }
+
+.cancel{
+	background-color: #df4040;
+}
+.voltar{
+	text-align: left;
+	/* display: none; */
+}
+	.voltar a{
+		font-size: 12px;
+		color: #505050;
+		display: inline-block;
+		background-color: #f5f5f5;
+		padding: 5px;
+		margin: 2px;
+		margin-bottom: 5px;
+		border: 1px solid #d5d5d5;
+		border-radius: 3px;
+	}
+		.voltar a:hover{
+			background-color: #f9f9f9;
+		}
+	.voltar img{ opacity: 0.7; }
+	.voltar span{
+		display: inline-block;
+	}
+	.voltar *{
+		vertical-align: middle;
+	}
+
+.pedido_item_lista *{
+	vertical-align: top;
+}
+.pedido_item_lista{
+	margin: 13px 5px;
+	border: 1px dotted #909090;
+	padding: 5px;
+}
+	.pedido_item_lista .imagem{
+		width: 40%;
+		display: inline-block;
+	}
+		.pedido_item_lista .imagem img{
+			width: 100%;
+			border: 3px solid #d9d9d9;
+		}
+
+
+	.pedido_item_lista .texto{
+		width: 59%;
+		display: inline-block;
+		padding: 0px;
+		font-size: 14px;
+	}
+
+	.pedido_item_lista .texto p{
+		padding: 10px;
+		margin: 0;
+	}
+	.pedido_item_lista .texto label{ 
+		font-size: 13px;
+		color: #303030;
+
+	}
+	.pedido_item_lista .botoes{
+		text-align: right;
+	}
+	a.btn_default{
+		display: inline-block;
+		line-height: 35px;
+		font-size: 13px;
+	}
+
+@media screen and ( max-width: 850px ) {
+	.pedido_item_lista{
+		max-width: 450px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.pedido_item_lista .imagem,
+	.pedido_item_lista .texto
+	{
+		display: block;
+		width: 100%;
+	}
+		.pedido_item_lista .imagem img {
+			border: none;
+		}
+
+}
+
+.status_ped_0,
+.status_ped_1,
+.status_ped_2,
+.status_ped_5,
+.status_ped_6,
+.status_ped_7{
+	color: #ff5050;
+}
+.status_ped_3,
+.status_ped_4{
+	color: #50bf50;
+}
+
+span.passado {
+	color: #ff5050;
+	font-weight: 700;
+}

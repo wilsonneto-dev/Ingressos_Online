@@ -1,0 +1,8 @@
+[08-Jan-2019 10:21:04 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/zedoingressocom/public_html/php/config/BaseDAO.classe.php on line 36
+[08-Jan-2019 10:21:04 America/Sao_Paulo] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/config/BaseDAO.classe.php on line 40
+[08-Jan-2019 10:21:04 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/util/Repeater.classe.php on line 53
+[08-Jan-2019 10:21:04 America/Sao_Paulo] PHP Warning:  RepeaterDAO::repeaterExec(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/util/Repeater.classe.php on line 158
+[08-Jan-2019 10:22:34 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/zedoingressocom/public_html/php/config/BaseDAO.classe.php on line 36
+[08-Jan-2019 10:22:34 America/Sao_Paulo] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/config/BaseDAO.classe.php on line 40
+[08-Jan-2019 10:22:34 America/Sao_Paulo] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/util/Repeater.classe.php on line 53
+[08-Jan-2019 10:22:34 America/Sao_Paulo] PHP Warning:  RepeaterDAO::repeaterExec(): Couldn't fetch mysqli in /home/zedoingressocom/public_html/php/util/Repeater.classe.php on line 158

@@ -1,0 +1,25 @@
+<center>
+	<img src="http://www.zedoingresso.com.br/imgs/mail-logo.png" />
+</center>
+Olá $[NOME]! 
+Confirmamos o pagamento de seu pedido em nosso sistema, obrigado.
+
+Gere uma c&oacute;pia do pedido no link abaixo, a c&oacute;pia ser&aacute; necess&aacute;ria para efetuar a troca. 
+
+O c&oacute;digo de seu pedido &eacute;: <b>$[CODIGO_PEDIDO]</b>.
+
+Para visualizar o pedido no site acesse:
+http://www.zedoingresso.com.br/usuario-pedidos
+
+Ou efetue login no site e acesse a p&aacute;gina Meus Pedidos no menu.
+
+Para efetuar a troca pelo ingresso no dia do evento, ser&aacute; necess&aacute;rio: 
+Uma c&oacute;pia do pedido e documento que contenha CPF no qual foi efetuado o pedido.
+
+Qualquer d&uacute;vida entre em contato com nossa equipe.
+
+Atenciosamente,
+Equipe Zé do Ingresso. :)
+
+
+
