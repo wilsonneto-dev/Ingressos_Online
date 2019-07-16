@@ -1,17 +1,17 @@
 <?php
 class BaseDAO{
 /*
- * classe com as configurações do banco
+ * classe com as configuraÃ§Ãµes do banco
  * as classes que usam acesso ao banco devem ser derivadas desta
 */
 	public static $SomenteLeitura = false;
 	
 	public $codProjeto = CODPROJETO;
 
-	protected $base = "zedoingr_oficial";
-	protected $usuario = "zedoingr_ze";
-	protected $pass = "ze021120141644";
-	protected $host = "64.31.63.90";
+	protected $base = "local";
+	protected $usuario = "root";
+	protected $pass = "";
+	protected $host = "localhost";
 
 	/*
 	protected $base = "ze";
@@ -26,10 +26,10 @@ class BaseDAO{
 	protected $leitura_pass = "";
 	protected $leitura_host = "localhost";
 	
-	/*configurações do banco*/
+	/*configuraÃ§Ãµes do banco*/
 	public function BaseDAO(){}
 	
-	/*controla conexão com o banco*/
+	/*controla conexÃ£o com o banco*/
 	protected function AbreConexao(){
 		try {
 			if( BaseDAO::$SomenteLeitura == false )
