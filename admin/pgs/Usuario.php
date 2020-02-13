@@ -59,6 +59,7 @@ $r->txtItem = "
 		<td>#ped6m</td>
 		<td class=\"td-controls\">
 			<a class=\"controle\" title=\"Detalhes\" href=\"/admin/?pg=" . $page->page . "Detalhes&cod=#id\"><img heigth=\"18\" src=\"/admin/img/search.png\" /></a>
+			<a class=\"controle\" title=\"Editar\" href=\"/admin/?pg=" . $page->page . "Editar&id=#id\"><img src=\"/admin/img/edt.png\" /></a>
 		</td>
 	</tr>
 ";
